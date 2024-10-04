@@ -1,0 +1,14 @@
+$json = @"
+{
+  "apiVersion": "v1",
+  "kind": "Namespace",
+  "metadata": {
+    "name": "cert-manager"
+  },
+  "spec": {
+    "finalizers": []
+  }
+}
+"@
+
+$json | Out-File -Encoding ascii force-delete-ns.json
