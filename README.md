@@ -1,5 +1,7 @@
 # Linode Kubernetes Module
 
+Disclaimer: This module is still in development.
+
 This Terraform module deploys a Kubernetes cluster on Linode along with supporting infrastructure including VPC, subnets, security groups, and a load balancer.
 
 ## Usage
